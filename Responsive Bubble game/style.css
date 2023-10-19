@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(177, 237, 237, 0.783);
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#panel {
+    max-width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#pan-top {
+    padding: 15px 10%;
+    background-color: rgb(37, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#pbtm {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.game-over {
+    font-size: 2em;
+}
+
+.bubble {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(31, 152, 152, 0.845);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bubble:hover {
+    background-color: rgb(5, 39, 39);
+    cursor: pointer;
+}
